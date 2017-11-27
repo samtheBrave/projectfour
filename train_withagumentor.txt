@@ -1,0 +1,55 @@
+Using TensorFlow backend.
+Operations: 2
+	0: RotateRange (max_left_rotation=-5 probability=1 max_right_rotation=5 )
+	1: Zoom (probability=0.5 max_factor=1.5 min_factor=1.1 )
+Images: 0
+Classes: 0
+
+You can remove operations using the appropriate index and the remove_operation(index) function.
+2017-11-22 13:58:27.130168: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-22 13:58:27.130412: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-22 13:58:27.130699: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-22 13:58:27.131139: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-22 13:58:27.131325: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-22 13:58:27.131601: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-22 13:58:27.131834: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-22 13:58:27.132082: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-22 13:58:27.474623: I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:887] Found device 0 with properties: 
+name: GeForce GTX 1060
+major: 6 minor: 1 memoryClockRate (GHz) 1.6705
+pciBusID 0000:01:00.0
+Total memory: 6.00GiB
+Free memory: 4.97GiB
+2017-11-22 13:58:27.475145: I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:908] DMA: 0 
+2017-11-22 13:58:27.475499: I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:918] 0:   Y 
+2017-11-22 13:58:27.475669: I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1060, pci bus id: 0000:01:00.0)
+Epoch 1/15
+43s - loss: 3.6690 - acc: 0.5068 - val_loss: 0.3901 - val_acc: 0.9125
+Epoch 2/15
+41s - loss: 0.6399 - acc: 0.8110 - val_loss: 0.2168 - val_acc: 0.9494
+Epoch 3/15
+40s - loss: 0.4660 - acc: 0.8591 - val_loss: 0.1643 - val_acc: 0.9618
+Epoch 4/15
+39s - loss: 0.3885 - acc: 0.8817 - val_loss: 0.1427 - val_acc: 0.9681
+Epoch 5/15
+39s - loss: 0.3393 - acc: 0.8961 - val_loss: 0.1110 - val_acc: 0.9758
+Epoch 6/15
+39s - loss: 0.3080 - acc: 0.9055 - val_loss: 0.1026 - val_acc: 0.9759
+Epoch 7/15
+39s - loss: 0.2723 - acc: 0.9165 - val_loss: 0.0970 - val_acc: 0.9757
+Epoch 8/15
+39s - loss: 0.2532 - acc: 0.9227 - val_loss: 0.0810 - val_acc: 0.9797
+Epoch 9/15
+39s - loss: 0.2314 - acc: 0.9287 - val_loss: 0.0802 - val_acc: 0.9805
+Epoch 10/15
+39s - loss: 0.2142 - acc: 0.9335 - val_loss: 0.0757 - val_acc: 0.9825
+Epoch 11/15
+39s - loss: 0.2082 - acc: 0.9362 - val_loss: 0.0672 - val_acc: 0.9844
+Epoch 12/15
+39s - loss: 0.1947 - acc: 0.9400 - val_loss: 0.0706 - val_acc: 0.9835
+Epoch 13/15
+40s - loss: 0.1867 - acc: 0.9422 - val_loss: 0.0652 - val_acc: 0.9839
+Epoch 14/15
+42s - loss: 0.1745 - acc: 0.9458 - val_loss: 0.0643 - val_acc: 0.9852
+Epoch 15/15
+41s - loss: 0.1666 - acc: 0.9478 - val_loss: 0.0578 - val_acc: 0.9863
